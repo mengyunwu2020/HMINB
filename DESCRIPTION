@@ -1,0 +1,17 @@
+Package: HMINB
+Title: Heterogeneous Multiple-Inflated Negative Binomial (HMINB) Model
+Version: 0.0.0.9000
+Authors@R: 
+    person("Bao", "Yongkang", email = "2024001088@ruc.edu.cn", role = c("aut", "cre"))
+Description: Implementation of the Heterogeneous Multiple-Inflated Negative Binomial (HMINB) model.
+    The model handles multiple inflated counts (e.g., excess zeros, ones, etc.) with 
+    individual-specific inflation probabilities modeled by a cumulative logit model.
+    Penalized selection is used to automatically choose inflation points.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    MASS,
+    pscl,
+    stats
